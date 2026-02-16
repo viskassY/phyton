@@ -1,4 +1,4 @@
-def explore_text():
+def text():
     word = "Python"
     print(f"Слово: {word}\n")
 
@@ -11,4 +11,4 @@ def explore_text():
     decoded = "".join([chr(code) for code in codes])
     print(f"\n Зворотне перетворення: {decoded}")
 
-explore_text()
+text()
